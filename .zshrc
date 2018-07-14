@@ -66,8 +66,8 @@ plugins=(
   git
 )
 
-source $ZSH/oh-my-zsh.sh
 source ~/.zshrc_pl9k
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
