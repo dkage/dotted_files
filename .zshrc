@@ -44,6 +44,7 @@ alias Z='source ~/.zshrc'
 alias lc='colorls -lA --sd'
 
 # Work VPN access
+# First install sstp client with -- brew install sstp-client
 alias sagivpn='sudo /usr/local/sbin/sstpc --log-level 4 --log-stderr --cert-warn --user *username* --password *password* *domain_name* defaultroute usepeerdns refuse-eap'
 
 
